@@ -29,7 +29,7 @@ saw_info = {
     "RS": False,
 }
 
-print(saw_info)
+# print(saw_info)
 
 #  boolean 
 # bytes / bytearray , memoryview 
@@ -53,4 +53,6 @@ MyNameIs = "Yadana"
 
 # kebab-case
 # my-name-is = "Aung"
+
+is_student = True
 
