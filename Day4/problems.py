@@ -156,3 +156,9 @@ print(f"The triangle is {type} triangle")
 
 # You can order (pizza for $300 / steak for $200 / mac and cheese for $100 ) 
 # After you have purchase one meal and if you still have the sufficient fund, you can continue top order remaining meals. The program should prompt to ask for permission from customer if he / she still want to continue to order after one meal. After the ordering process, the program should output the remaining balance at the end. 
+
+
+
+
+
+
