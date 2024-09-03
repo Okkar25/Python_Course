@@ -90,3 +90,37 @@ print(name.zfill(8))
 # https://www.w3schools.com/python/python_ref_string.asp
 
 
+
+
+# ===============================================================================================
+
+
+# Try solving these problems 
+
+# Have Fun : ) 
+
+
+# Problem 1: Sum of Natural Numbers
+# Problem: Write a Python program to find the sum of the first n natural numbers using a while loop.
+
+# Problem 2: Print "Python is Fun" 3 Times
+# Problem: Write a Python program that uses a while loop to print "Python is Fun" three times.
+
+# Problem 3: Print Even Numbers from 2 to 10
+# Problem: Write a Python program that uses a while loop to print even numbers from 2 to 10.
+
+# Problem 4: Countdown from 5 to 1
+# Problem: Write a Python program that uses a while loop to print a countdown from 5 to 1. Please put countdown duration for 1 second between the reduced numbers. 
+# ( Hint - Use time module )
+
+# Problem 5: Sum of all odd numbers between two numbers
+# Problem: Write a Python program that takes two numbers as input and calculate the sum of all odd numbers between those two input values.
+
+# Problem 6: Guess the Number
+# Problem: Write a Python program that repeatedly asks the user to guess a number until they guess correctly.
+# ( Hint - Use random module )
+
+# Problem 7: Factorial Calculation
+# Problem: Write a Python program to calculate the factorial of a number using a while loop.
+# ( Factorial => mathematical formula )
+# ( For example => factorial of 3 = 3 x 2 x 1 = 6 / factorial of 5 = 5 x 4 x 3 x 2 x 1 = 120 )

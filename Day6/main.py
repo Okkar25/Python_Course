@@ -97,8 +97,3 @@ else:
    
 # print(sum)
 
-
-
-
-
-
