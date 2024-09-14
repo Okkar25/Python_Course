@@ -36,12 +36,12 @@ for i in list:
 # Problem: Write a for-loop to calculate the factorial of a given number.
 
 
-n = 5
-result = 1
+# n = 5
+# result = 1
 
-for i in range(1, n+1):
-  result *=i 
-print(result)
+# for i in range(1, n+1):
+#   result *=i 
+# print(result)
   
   
 # 5 x 4 x 3 x 2 x 1 = 120
@@ -54,8 +54,8 @@ print(result)
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 n = 4
 
-for i in range(1,n + (11 - n)):
-   print(f"{i} x {n} = {i * n}")
+# for i in range(1,n + (11 - n)):
+#    print(f"{i} x {n} = {i * n}")
    
    
    
@@ -67,11 +67,11 @@ for i in range(1,n + (11 - n)):
 numbers = [10, 24, 45, 13, 99, 2, 38]
 largest_num = 0
 
-for i in numbers:
-  if i > largest_num:
-      largest_num = i
+# for i in numbers:
+#   if i > largest_num:
+#       largest_num = i
 
-print(largest_num)
+# print(largest_num)
 
 # print(numbers)
 
@@ -138,14 +138,34 @@ def even_or_odd(num):
 # print(even_or_odd(9))
 
 
-def count_vowels(str):
-  vowels = "aeiou"
-  count = 0
+# def count_vowels(str):
+#   vowels = "aeiou"
+#   count = 0
 
-  for i in str:
-    if i in vowels:
-      count += 1
+#   for i in str:
+#     if i in vowels:
+#       count += 1
 
-  return f"There are {count} vowels in {str}"
+#   return f"There are {count} vowels in {str}"
 
-print(count_vowels("Saw Yadana"))
+# print(count_vowels("Saw Yadana"))
+
+flips = ['H', 'H', 'H', 'H', 'H', 'T', 'T', 'H', 'T', 'H'] 
+number_of_H = 0
+
+for i in flips:
+  if i == "H":
+    number_of_H += 1
+    
+# print(number_of_H)
+
+s = "hello"
+reverse = ""
+
+for i in range(len(s) - 1, -1, -1):
+  reverse += s[i]
+  
+# print(reverse)
+
+
+# first occurrence
