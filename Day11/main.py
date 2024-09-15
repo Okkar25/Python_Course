@@ -96,3 +96,64 @@ new_fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
 d = [fruit.capitalize() for fruit in new_fruits]
 # print(d)
+
+
+# fruits = ["apple","orange","grape"]
+# fruits[1:2] = ["banana", "kiwi", "avocado"]
+
+# fruits[0:2] = ["kiwi"]
+# fruits[0:] = ["strawberry"]
+
+# print(fruits)
+
+fruits = ["apple", "orange", "grape", "peach"]
+list = [] 
+
+# for fruit in fruits:
+#   lsit.append(fruit)
+# print(list)
+
+
+# for i in range(len(fruits)):
+#   print(i, fruits[i])
+
+
+# list comprehension 
+# [expression for item in iterables]
+
+# [print(fruit) for fruit in fruits]
+
+f = [fruit.capitalize() for fruit in fruits]
+# print(f)
+
+
+num = [ 3, 5, 9, 10, 15, 18]
+
+
+n = [i**2 for i in num]
+# print(n)
+
+
+my_fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+list = []
+
+for i in my_fruits:
+  if "e" in i:
+    list.append(i) # expression
+
+# print(list)
+
+fruits_with_e = [fruit for fruit in my_fruits if "i" in fruit]
+
+
+
+fruits_except_apple = [fruit for fruit in my_fruits if fruit == "apple"]
+
+# print(fruits_except_apple)
+
+
+
+
+
+
+
