@@ -110,7 +110,7 @@ fruits = ["apple", "orange", "grape", "peach"]
 list = [] 
 
 # for fruit in fruits:
-#   lsit.append(fruit)
+#   list.append(fruit)
 # print(list)
 
 
