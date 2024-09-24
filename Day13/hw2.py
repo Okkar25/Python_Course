@@ -73,7 +73,6 @@ def lastF(first, last):
     return f"{last}, {first[0]}."
 
 
-
 if __name__ == '__main__':
     import doctest
     print( doctest.testfile("hw2TEST.py"))
