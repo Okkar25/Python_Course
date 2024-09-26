@@ -32,8 +32,10 @@ def crypto(filename):
   file = open(filename, "r")
   content = file.read()
   modified_content = content.replace("secret", "xxxxxx")
-  print(f"{modified_content}\n")
+  # print(f"{modified_content}\n")
+  print(f"{modified_content}")
 
+from pprint import pprint
 
 def links(filename):
   file = open(filename, "r")
@@ -46,7 +48,7 @@ def duplicate(filename):
   file = open(filename, "r")
   content = file.read()
 
-  for punctuation in ".,?":
+  for punctuation in ".,?\n":
     content = content.replace(punctuation, "")
 
   content = content.lower()
@@ -54,7 +56,21 @@ def duplicate(filename):
   content = content.split(" ")
 
   # print(content)
+  
+  # output showing the numbers of appearance for each word 
+  # show_duplicates = {}
+  
+  # for word in content:
+  #   if word in show_duplicates:
+  #     show_duplicates[word] += 1
+  #   else:
+  #     show_duplicates[word] = 1
+  
+  # for key, value in show_duplicates.items():
+  #   pprint(f"{key.upper()} {value}")
+    
 
+  # return True if duplicate is found
   duplicated_words = []
   
   for word in content:
@@ -64,7 +80,7 @@ def duplicate(filename):
 
   return False
     
-
+duplicate("Duplicates.txt")
 
 if __name__ == "__main__":
   import doctest
