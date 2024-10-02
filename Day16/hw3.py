@@ -54,21 +54,19 @@ def duplicate(filename):
   content = content.lower()
 
   content = content.split(" ")
+  
+  # dict => key value 
+  show_duplicates = {}
+  
+  for word in content:
+    if word in show_duplicates:
+      show_duplicates[word] += 1
+    else:
+      show_duplicates[word] = 1
+  
+  for key, value in show_duplicates.items():
+    print(f"{key.upper()} {value}")
 
-  # print(content)
-  
-  # output showing the numbers of appearance for each word 
-  # show_duplicates = {}
-  
-  # for word in content:
-  #   if word in show_duplicates:
-  #     show_duplicates[word] += 1
-  #   else:
-  #     show_duplicates[word] = 1
-  
-  # for key, value in show_duplicates.items():
-  #   pprint(f"{key.upper()} {value}")
-    
 
   # return True if duplicate is found
   duplicated_words = []
@@ -76,14 +74,27 @@ def duplicate(filename):
   for word in content:
     if word in duplicated_words:
       return True
-    duplicated_words.append(word)
+    else:
+      duplicated_words.append(word)
 
   return False
-    
-duplicate("Duplicates.txt")
 
-if __name__ == "__main__":
-  import doctest
-  print(doctest.testfile("hw3TEST.py"))
+  # for word in content:
+  #   if content.count(word) > 1:
+  #     return True
+  
+  # return False
+    
+# duplicate("Duplicates.txt")
+
+# if __name__ == "__main__":
+#   import doctest
+#   print(doctest.testfile("hw3TEST.py"))
+
+
+# -----------------------------------------------------------
+
+
+
 
 
