@@ -49,6 +49,31 @@ def squares(list):
     return len(perfect_squares)
 
 
+def rps(p1,p2): 
+  if p1 == p2:
+    return 0
+
+  if (p1 == "R" and p2 == "S") or (p1 == "P" and p2 == "R") or (p1 == "S" and p2 == "P"):
+    return -1
+
+  return 1
+
+
+# possibilities = []
+
+# for p1 in "RPS":
+#   for p2 in "RPS":
+#     possibilities.append((p1,p2, rps(p1,p2)))
+     
+# print(possibilities)
+
+# for scenario in possibilities:
+#     if scenario[2] == 0:
+#         print(f"{scenario} - Tie")
+#     elif scenario[2] == -1:
+#         print(f"{scenario} - Player One Wins")
+#     else:
+#         print(f"{scenario} - Player Two Wins")
 
 if __name__ == "__main__":
     import doctest 
