@@ -23,19 +23,21 @@
 # 3. G(lobal)/Module:
 # 4. B(uiltins): print, abs
 
-# x = 2
-# y = 3
+x = 2
+y = 3
 
-# x = 99
-# print(x)
+x = 99
+print(x)
 
-# def f():
-#   global x
-#   x = 99
-#   z = 5
 
-#   print(x, y)
-#   print(vars())
+def f():
+    global x
+    x = 99
+    z = 5
+
+    print(x, y)
+    print(vars())
+
 
 # f()
 
@@ -48,9 +50,6 @@
 # |  -5  |  =  5  modulus
 
 # print(abs(-5))
-
-
-from collections import namedtuple
 
 
 def g(x):
