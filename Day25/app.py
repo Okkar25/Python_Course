@@ -106,6 +106,12 @@ def craps():
 # print(craps())
 
 
+def testCraps(n):
+
+    result = [craps() for i in range(n)]  
+    number_0f_winnings = result.count(1)
+
+    return number_0f_winnings / n
 
 
 if __name__ == "__main__":
